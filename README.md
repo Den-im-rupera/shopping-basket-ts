@@ -2,7 +2,28 @@
 
 This is a scalable TypeScript program that calculates the total cost of a shopping basket, dynamically supporting price, currency and discount logic.
 
-<pre> ## 📁 Project Layout ```text shopping-basket/ ├── src/ │ ├── models/ # TypeScript types and interfaces │ ├── offers/ # Offer strategy implementations │ ├── utils/ # Utility functions │ └── index.ts # (Optional) entry point ├── tests/ # Unit tests (mirrors src structure) ├── package.json # Project metadata and dependencies ├── tsconfig.json # TypeScript compiler config ├── jest.config.js # Jest test config ├── .gitignore # Files to ignore in Git └── README.md # Project documentation ``` </pre>
+## 📁 Project Structure
+
+```text
+shopping-basket/
+├── src/
+│   ├── models/               
+│   │   └── item.ts           # Item and currency types
+│   ├── offers/               
+│   │   └── BuyOneGetOneFree.ts
+│   │   └── ThreeForTwo.ts
+│   ├── utils/                
+│   │   └── calculator.ts
+│   │   └── formatPrice.ts
+│   └── index.ts              
+├── tests/                    # Unit tests
+│   └── utils/
+├── package.json              
+├── tsconfig.json             
+├── jest.config.js            
+├── .gitignore                
+└── README.md
+
 
 | Folder / File    | Purpose                                                                              |
 | ---------------- | ------------------------------------------------------------------------------------ |
