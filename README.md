@@ -1,6 +1,6 @@
 # Shopping Basket Calculator
 
-This is a scalable TypeScript program that calculates the total cost of a shopping basket, dynamically supporting price and discount logic.
+This is a scalable TypeScript program that calculates the total cost of a shopping basket, dynamically supporting price, currency and discount logic.
 
 ## Features
 
